@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DC0A17782A9D03A500172296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A17772A9D03A500172296 /* main.m */; };
+		DC431D9B2AA5AEB300197E14 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = DC431D9A2AA5AEB300197E14 /* Figure.m */; };
+		DC7115872AA6104000D061A4 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7115862AA6104000D061A4 /* Circle.m */; };
+		DC7FBB3F2AA853E300780BF1 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7FBB3E2AA853E300780BF1 /* Rectangle.m */; };
+		DC7FBB422AA8550C00780BF1 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7FBB412AA8550C00780BF1 /* Triangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		DC0A17742A9D03A500172296 /* Course2.Lesson1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Course2.Lesson1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A17772A9D03A500172296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC431D992AA5AEB300197E14 /* Figure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		DC431D9A2AA5AEB300197E14 /* Figure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		DC7115852AA6104000D061A4 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		DC7115862AA6104000D061A4 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		DC7FBB3D2AA853E300780BF1 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		DC7FBB3E2AA853E300780BF1 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		DC7FBB402AA8550C00780BF1 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		DC7FBB412AA8550C00780BF1 /* Triangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				DC0A17772A9D03A500172296 /* main.m */,
+				DC431D992AA5AEB300197E14 /* Figure.h */,
+				DC431D9A2AA5AEB300197E14 /* Figure.m */,
+				DC7115852AA6104000D061A4 /* Circle.h */,
+				DC7115862AA6104000D061A4 /* Circle.m */,
+				DC7FBB3D2AA853E300780BF1 /* Rectangle.h */,
+				DC7FBB3E2AA853E300780BF1 /* Rectangle.m */,
+				DC7FBB402AA8550C00780BF1 /* Triangle.h */,
+				DC7FBB412AA8550C00780BF1 /* Triangle.m */,
 			);
 			path = Course2.Lesson1;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7FBB422AA8550C00780BF1 /* Triangle.m in Sources */,
+				DC7115872AA6104000D061A4 /* Circle.m in Sources */,
 				DC0A17782A9D03A500172296 /* main.m in Sources */,
+				DC431D9B2AA5AEB300197E14 /* Figure.m in Sources */,
+				DC7FBB3F2AA853E300780BF1 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
