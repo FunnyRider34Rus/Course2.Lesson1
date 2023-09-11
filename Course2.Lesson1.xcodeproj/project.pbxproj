@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DC0A17782A9D03A500172296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A17772A9D03A500172296 /* main.m */; };
+		DCE5783B2AA9B4580082BAEC /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5783A2AA9B4580082BAEC /* Doctor.m */; };
+		DCE5783E2AA9B4720082BAEC /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5783D2AA9B4720082BAEC /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		DC0A17742A9D03A500172296 /* Course2.Lesson1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Course2.Lesson1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A17772A9D03A500172296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE578392AA9B4580082BAEC /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		DCE5783A2AA9B4580082BAEC /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		DCE5783C2AA9B4720082BAEC /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		DCE5783D2AA9B4720082BAEC /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				DC0A17772A9D03A500172296 /* main.m */,
+				DCE578392AA9B4580082BAEC /* Doctor.h */,
+				DCE5783A2AA9B4580082BAEC /* Doctor.m */,
+				DCE5783C2AA9B4720082BAEC /* Patient.h */,
+				DCE5783D2AA9B4720082BAEC /* Patient.m */,
 			);
 			path = Course2.Lesson1;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE5783E2AA9B4720082BAEC /* Patient.m in Sources */,
+				DCE5783B2AA9B4580082BAEC /* Doctor.m in Sources */,
 				DC0A17782A9D03A500172296 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
