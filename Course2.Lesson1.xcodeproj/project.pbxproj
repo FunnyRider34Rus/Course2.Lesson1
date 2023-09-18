@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC0A17782A9D03A500172296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A17772A9D03A500172296 /* main.m */; };
+		DCD541AD2AB81B110059EB64 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD541AC2AB81B110059EB64 /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DC0A17742A9D03A500172296 /* Course2.Lesson1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Course2.Lesson1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A17772A9D03A500172296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCD541AB2AB81B110059EB64 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		DCD541AC2AB81B110059EB64 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DC0A17772A9D03A500172296 /* main.m */,
+				DCD541AB2AB81B110059EB64 /* Robot.h */,
+				DCD541AC2AB81B110059EB64 /* Robot.m */,
 			);
 			path = Course2.Lesson1;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD541AD2AB81B110059EB64 /* Robot.m in Sources */,
 				DC0A17782A9D03A500172296 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
